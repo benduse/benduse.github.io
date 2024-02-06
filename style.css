@@ -48,9 +48,12 @@ hr {
 }
 
 /* Add your solution below */
-
+/* this changes the image to a circle and adds borders around it*/
 .image-circle{
   border-radius: 100%;
+  border-color:#003049;
+  border-width: 2px;
+  border-style: solid;
 }
   
 a{
@@ -61,7 +64,7 @@ a:link    { color: #d62828;}
 a:visited { color: red;}
 a:hover   { color: #f77f00;}
 a:active  { color: pink;}
-
+/* This code puts the navigation bar in the center and spaces out the tabs*/
 nav{
   text-align: center;
   word-spacing:15px;
